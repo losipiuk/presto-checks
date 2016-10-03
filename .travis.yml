@@ -6,6 +6,9 @@ services:
 - docker
 
 env:
+  global:
+  - DOCKER_IMAGES_VERSION=latest
+  - HADOOP_MASTER_IMAGE='teradatalabs/hdp2.5-hive:latest'
   matrix:
   - PRODUCT_TESTS='bulk'
   - PRODUCT_TESTS='big_query'

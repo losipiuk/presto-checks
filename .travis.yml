@@ -8,7 +8,7 @@ services:
 env:
   global:
   - DOCKER_IMAGES_VERSION=latest
-  - HADOOP_MASTER_IMAGE='teradatalabs/cdh5-hive:latest'
+  - HADOOP_MASTER_IMAGE='teradatalabs/cdh5-hive:latest-snapshot'
   matrix:
   - PRODUCT_TESTS='bulk'
   - PRODUCT_TESTS='big_query'

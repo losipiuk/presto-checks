@@ -37,3 +37,4 @@ script:
     ../ensure_command_output.sh ./presto-product-tests/bin/run_on_docker.sh singlenode -t sql_tests.testcases.tpcds.q14_1
     
     
+    

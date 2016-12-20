@@ -9,7 +9,7 @@ services:
 env:
   global:
     - DOCKER_IMAGES_VERSION=11
-    - HADOOP_MASTER_IMAGE='teradatalabs/cdh5-hive:latest'
+    - HADOOP_MASTER_IMAGE='teradatalabs/cdh5-hive:11'
 
 install:
 - sudo pip install awscli

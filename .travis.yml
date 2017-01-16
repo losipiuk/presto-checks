@@ -17,7 +17,7 @@ install:
 - cd presto
 - git checkout 53bb7f0cfcd302a65f59c1071347e566f1e16a69
 - |
-  aws s3 sync s3://teradata-presto/travis_build_artifacts/Teradata/presto/sprint-44/5382.7 /tmp/artifacts \
+  aws s3 sync s3://teradata-presto/travis_build_artifacts/Teradata/presto/sprint-46/6292 /tmp/artifacts \
       --exclude '*' \
       --include 'presto-server-*.tar.gz' \
       --include 'presto-cli-*-executable.jar' \
